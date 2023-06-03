@@ -26,11 +26,11 @@ body {
   top: 60px;
   display:grid;
   place-content: center;
+  gap:25px;
 }
 
 .appcontainer a{
   display: grid;
-
   width:100%;
   height:100%;
   place-content: center;
@@ -52,17 +52,19 @@ aside {
   translate: -225px 0px;
   transition: ease-in 500ms;
   display: grid;
-  align-content: start;
-  padding: 25px;
+  padding: 20px;
   place-content: center;
   box-shadow: 0px 0px 3px 0px hsl(0, 0%, 22%);
   border-radius: 5px;
+  gap: 20px;
   z-index: 2;
 }
+
 aside:hover {
   translate: 0px 0px;
   transition: ease-out 800ms;
 }
+
 
 aside  a{
   display: grid;
@@ -71,13 +73,19 @@ aside  a{
   place-content: center;
   text-align: center;
   border-radius: 10px;
-  margin:15px;
+  padding: 10px;
   color: var(--woodyDark);
+  box-shadow: 1px 1px 1px 1px black;
+}
 
+aside  a:hover, .appcontainer a:hover{
+  box-shadow: 1px 1px 3px 1px black;
+  font-size: smaller;
 }
 
 aside  a img{
  width:100px;
  justify-self: center;
- font-size: smaller;
+
+
 }
