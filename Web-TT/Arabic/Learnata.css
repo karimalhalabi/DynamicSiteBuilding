@@ -1,0 +1,9 @@
+/* Webfont: Tajawal-Regular */@font-face {
+    font-family: 'Learnata';
+    src: url('JF-Flat-regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+         url('JF-Flat-regular.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
